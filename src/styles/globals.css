@@ -30,7 +30,7 @@ body {
 
 /* Navbar */
 .customNavbar {
-  background-color: #f77e4f;
+  background-color: #f77e4f40;
 }
 .customNavbar .navbar-brand {
   font-size: 1.5em;

@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Script from "next/script";
 import Image from "next/image";
+import logo from "../../public/Img/vcf-logo.png";
+import logo2 from "../../public/Img/vcf-logo-2.png";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
@@ -33,8 +35,7 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-5">
               <a className="mainLogo" href="#">
-                {" "}
-                LOGO{" "}
+                <Image height={80} width={140} src={logo}></Image>
               </a>
             </div>
             <div className="col-lg-5 ms-auto">
@@ -48,7 +49,7 @@ export default function Home() {
       <nav className="navbar navbar-expand-lg customNavbar">
         <div className="container">
           <a className="navbar-brand" href="#">
-            <span>VCF</span>Generator
+            <Image height={150} width={200} src={logo2}></Image>
           </a>
           <button
             className="navbar-toggler"
